@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /* background: linear-gradient(to bottom right, rgb(53, 45, 63), rgb(29, 20, 34));
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: url(photo/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* НАЧАЛО ШАПКИ */
+header{
+    
+    /* background: linear-gradient(to bottom right, rgb(45, 54, 63), rgb(101, 51, 50), rgb(45, 71, 72));
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    display: flex;
+    height: 100px;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10vw 150px 10vw;
+}
+
+img.logo{
+    margin-top: -15px;
+    position: relative;
+    width: 250px;
+    height: auto;
+}
+
+.center{
+    position: relative;
+    justify-content: center;
+}
+
+.material-symbols-outlined{
+    color: white;
+    font-size: 100px;
+}
+
+.reg{
+    position: relative;
+    align-items: center;
+    padding: 14px 20px;
+    background-color: black;
+    border-radius: 0.5em;
+    
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.reg:hover{
+    background-color: rgb(20, 20, 20);
+    transition: background-color 0.2s linear;
+}
+
+.shapka-ssilka{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.shapka-ssilka:hover{
+    color: rgb(185, 185, 185);
+    transition: all 0.3s linear;
+}
+/* КОНЕЦ ШАПКИ */
+
+/* ВТОРОЙ БЛОК */
+.d2{
+    margin: 0 10vw;
+    width: 80vw;
+    height: 800px;
+}
+
+.text-start{
+    position: absolute;
+    left: 0;
+    color: white;
+    font-size: 50px;
+    text-align: start;
+    font-family: 'Mulish', sans-serif;
+}
+/* КОНЕЦ ВТОРОГО БЛОКА */
+
+/* ТРЕТИЙ БЛОК */
+.d3{
+    margin: 0 10vw;
+    width:80vw;
+    height: 1000px;
+}
+
+.main{
+    position: relative;
+}
+
+.main-slogan{
+    position: absolute;
+    right: 0;
+    color: white;
+    font-size: 50px;
+    text-align: end;
+    font-family: 'Mulish', sans-serif;
+}
+/* КОНЕЦ ТРЕЬЕГО БЛОКА */
