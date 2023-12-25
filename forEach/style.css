@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .img {
+    position: relative;
+    left: calc(50vw - 700px / 2);
+    width: 100px;
+    height: 100px;
+    background-color:black;
+  }
+  
+  section {
+    background-color: rgb(218, 218, 218);
+    margin: 20px 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    margin: 0;
+    padding: 10px 2px;
+  }
+  
+  input {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  

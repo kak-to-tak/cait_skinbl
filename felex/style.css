@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.fl{
+    background-color: black;
+    width: 5%;
+    height: 100vh;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,56 @@
+.container {  
+    display: grid;
+    grid-template-columns: 450px 350px 350px;
+    grid-template-rows: 475px 450px 450px;
+    grid-auto-columns: 1fr;
+    gap: 25px 39px;
+    grid-auto-flow: row;
+    justify-content: center;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+  }
+  
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.p{
+    font-size: 25px;
+}
+
+.p1{
+    font-size: 18px;
+}
+
+.set3{
+    background-color: rgba(0, 255, 255, 0.534);
+    padding:50px;
+    border-radius: 50px;
+}
+
+.set2{
+    background-color: rgba(255, 102, 255, 0.541);
+    padding:50px;
+    border-radius: 50px;
+}
+
+.set1{
+    background-color: rgba(172, 255, 47, 0.568);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+body{
+    margin-top:2%;
+}
+
+.img1{
+    width: 200px;
+    height: auto;
+    
+}

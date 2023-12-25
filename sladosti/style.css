@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #d195ff;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen {
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+.container2 {  
+    display: grid;
+    grid-template-columns: 400px 50px;
+    grid-template-rows: 70px;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: center; 
+    justify-items: center; 
+    align-items: center;
+}
+
+.poisk{
+    width: 400px;
+    height: 33px;
+}
+
+.knp{
+    height: 33px;
+    width: 50px;
+    transition: 0.5s;
+}
+
+.knp:hover{
+    background-color: rgb(194, 194, 194);
+    transition: 0.5s;
+}
+
+
+
+
+
+/* habr.com /*

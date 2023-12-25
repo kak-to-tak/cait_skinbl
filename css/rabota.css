@@ -1,0 +1,22 @@
+section {
+    border: 2px solid #000;
+    margin-top: 20px;
+}
+
+section.svar{
+    width: 86vw;
+    background-image:url(https://aktsh.ru/wp-content/uploads/2017/04/13.png) ;
+    background-size: px auto
+}   
+section.tok{
+    width: 69vw;
+}
+section.crovel{
+    width: 52vw;
+}
+section.elec{
+    width: 48vw;
+}
+section.prog{
+    width: 42vw;
+}

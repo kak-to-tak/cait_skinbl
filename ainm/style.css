@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    color: aquamarine;
+    animation-name: Anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.d1{
+    background-color: green;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0px ;
+}
+.d2{
+    background-color: grey;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    bottom:255px ;
+    left: calc(50vw - 500px/2);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.d3{
+    background-color: grey;
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    left: calc(50vw - 200px/2);
+    bottom: 355px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.d4{
+    position: absolute;
+    background-color: aqua;
+    width: 250px;
+    height: 130px;
+    border-radius: 35%;
+    animation-name: oblako2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.d5{
+    position: absolute;
+    background-color: aqua;
+    width: 250px;
+    height: 130px;
+    border-radius: 35%;
+    right: 0;
+    top: 100px;
+    animation-name: oblako;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.k1{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    bottom: 200px;
+    left: 725px;
+    animation-name: koleso1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.k2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    bottom: 200px;
+    left: 1100px;
+    animation-name: koleso1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes Anim {
+    0%{
+        color: aquamarine;
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color: aquamarine;
+    }
+}
+
+@keyframes koleso1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes oblako {
+    0%{
+        transform: translate(250px,0);
+    }
+    100%{
+        transform: translate(-2300px);
+    }
+}
+
+@keyframes oblako2 {
+    0%{
+        transform: translate(-250px,0);
+    }
+    100%{
+        transform: translate(2000px);
+    }
+}
