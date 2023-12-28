@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  background: linear-gradient(180deg, #171d25, #181a21);
+}
+
+.d123 {
+  /* background: linear-gradient(to bottom right, rgb(53, 45, 63), rgb(29, 20, 34));
+    background-repeat: no-repeat;
+    background-size: cover; */
+  background-image: url(photo/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+/* НАЧАЛО ШАПКИ */
+header {
+  /* background: linear-gradient(to bottom right, rgb(45, 54, 63), rgb(101, 51, 50), rgb(45, 71, 72));
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+  display: flex;
+  height: 100px;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10vw 80px 10vw;
+}
+
+img.logo {
+  margin-top: -15px;
+  position: relative;
+  width: 250px;
+  height: auto;
+}
+
+.center {
+  position: relative;
+  justify-content: center;
+}
+
+.material-symbols-outlined {
+  color: white;
+  font-size: 100px;
+}
+
+.reg {
+  position: relative;
+  align-items: center;
+  padding: 14px 20px;
+  background-color: black;
+  border-radius: 5px;
+  border-style: none;
+
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-family: "Overpass", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.reg:hover {
+  background-color: rgb(20, 20, 20);
+  transition: background-color 0.2s linear;
+  cursor: pointer;
+}
+
+.shapka-ssilka {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 20px;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-family: "Overpass", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.shapka-ssilka:hover {
+  color: rgb(185, 185, 185);
+  transition: all 0.3s linear;
+}
+
+/* КОНЕЦ ШАПКИ */
+
+/* ВТОРОЙ БЛОК */
+.d2 {
+  margin: 0 10vw 180px 10vw;
+  width: 80vw;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.text-start {
+  /* position: absolute;
+    left: 0; */
+  margin-top: 70px;
+  color: white;
+  font-size: 62px;
+  font-weight: 400;
+  text-align: start;
+  font-family: "Rubik", sans-serif;
+}
+
+.div-dlore {
+  /* background: #181a21; */
+  padding: 12px;
+}
+
+.ps-howl {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.p-howl1 {
+  margin-right: 15px;
+  color: white;
+  font-size: 30px;
+}
+
+.cena {
+  color: white;
+  font-size: 20px;
+}
+
+.dlore {
+  width: 700px;
+  height: auto;
+}
+/* КОНЕЦ ВТОРОГО БЛОКА */
+
+/* ТРЕТИЙ БЛОК */
+
+.d3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10vw;
+  height: auto;
+}
+
+.div-preimushestva {
+  width: 230px;
+}
+
+/* #134787 */
+.p-preimushestva-upper {
+  color: white;
+  font-size: 52px;
+  font-family: "Rubik", sans-serif;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #134787;
+  margin: 10px 0;
+}
+
+.p-preimushestva {
+  color: #6b7077;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+}
+/* КОНЕЦ ТРЕЬЕГО БЛОКА */
+
+/* НАЧАЛО 4 БЛОКА */
+.d4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 10vw;
+  height: auto;
+}
+
+.vasha-reklama {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: white;
+  width: 40vw;
+  height: 375px;
+}
+
+.reklama {
+  font-size: 100px;
+  color: white;
+  /* font-family: "Rubik", sans-serif; */
+}
+
+.d4-p > h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.d4-p > p {
+  color: #6b7077;
+  font-size: 24px;
+}
+/* КОНЕЦ 4 БЛОКА */
+
+.d56 {
+  background: url(photo/slark-fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px 0;
+}
+
+/* НАЧАЛО 5 БЛОКА */
+.d5 {
+  margin: 0 10vw 200px 10vw;
+  height: auto;
+}
+.p-pop-predmeti {
+  color: white;
+  font-size: 62px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.predmeti {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.p-predmeti {
+  color: white;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  margin-right: 140px;
+}
+.predmeti img {
+  width: 300px;
+  height: auto;
+}
+.predmet {
+  background-color: #272b35;
+  /* padding: 20px 20px 10px 20px; */
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* КОНЕЦ 5 БЛОКА */
+
+/* НАЧАЛО 6 БЛОКА */
+
+.d6 {
+  margin: 0 10vw;
+}
+
+.zagolovok-rozigrish {
+  color: white;
+  font-size: 62px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.yslovia {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div-p-yslovia {
+  width: 30vw;
+}
+
+.p-yslovia {
+  color: #6b7077;
+  font-size: 36px;
+  margin-top: 80px;
+}
+
+.podarok {
+  width: 25vw;
+  height: auto;
+}
+
+/* КОНЕЦ 6 БЛОКА */
+
+/* НАЧАЛО 7 БЛОКА */
+
+.d7 {
+  margin: 150px 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prosba {
+  font-size: 70px;
+  font-family: "Rubik", sans-serif;
+  color: white;
+  text-align: center;
+}
+.prosba-niz {
+  color: white;
+  font-size: 62px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+.reg-form {
+  margin: 30px auto 0 auto;
+}
+/* КОНЕЦ 7 БЛОКА */
+
+/* НАЧАЛО FOOTER */
+footer {
+  width: 100vw;
+  height: 250px;
+  background-color: #272b35;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.soc-seti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-soc-set {
+  width: 34px;
+  height: auto;
+  margin: 0 3vw;
+}
+.information {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer-infa {
+  color: #6b7077;
+  text-decoration: none;
+  margin: 15px;
+}
+.copyright {
+  color: #6b7077;
+  font-size: 12px;
+  text-align: center;
+}
+/* КОНЕЦ FOOTER */
